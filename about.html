@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="shortcut icon" type="image/png" href="images/initialslogo.png"> <!-- website icon -->
+
+    <!--Meta tags and Bootstrap-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <link href="styles.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>IgKnighted | About Us</title>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top opacity-90" id="navbar">
+    <div class="container-fluid mx-4">
+      <a class="navbar-brand" href="index.html">
+        <img class="navbar-brand" src="images/initialslogo.png" width="100px">
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-2">
+            <a class="nav-link" aria-current="page" href="/">HOME</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active" href="about.html">ABOUT</a>
+          </li>
+          <!-- <li class="nav-item mx-2">
+            <a class="nav-link" href="FIRST.html">FIRST</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      <div class="container-fluid text-center g-0 p-0 m-0">
+        
+        <div class="row g-0">
+          <div class="col">
+            <img id="about-team" src="images/TeamPic.jpg">
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center align-items-center py-4 g-0" id="statistics">
+
+          <div class="col-3 col-xl-2">
+            <div class="row pb-1">
+              <div class="col"> Incoming DV Intern </div>
+            </div>
+            <div class="row h2">
+              <div class="col fw-semibold"> Intel </div>
+            </div>
+          </div>
+
+          <div class="col-3 col-xl-2">
+            <div class="row pb-1">
+              <div class="col"> Digital Verification Member </div>
+            </div>
+            <div class="row h2">
+              <div class="col fw-semibold"> SiliconJackets </div>
+            </div>
+          </div>
+
+          <div class="col-3 col-xl-2">
+            <div class="row pb-1">
+              <div class="col"> Firmware & Software Member </div>
+            </div>
+            <div class="row h2">
+              <div class="col fw-semibold"> HyTech Racing </div>
+            </div>
+          </div>
+
+          <div class="col-3 col-xl-2">
+            <div class="row pb-1">
+              <div class="col"> 1st-Year CompE Undergraduate </div>
+            </div>
+            <div class="row h2">
+              <div class="col fw-semibold"> Georgia Tech </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row py-4 g-0" id="mission-statement">
+          <div class="col">
+            <div class="row pt-3">
+              <h1>Objective</h1>
+            </div>
+            <div class="row">
+              <h6 class="text-center display-6">
+                I'm a Computer Engineering student at Georgia Tech, focusing on the hardware and system architecture threads.
+                My background includes embedded C++ and software reliability, though my current work is centered on digital design and verification.
+                Most of my recent projects involve building UVM testbenches for a RISC-V tapeout, designing secure hardware for an SoC, and implementing systolic arrays on FPGA.
+                My career aspirations lie in industry ASIC and FPGA design and verification roles where I can leverage my technical expertise. 
+              </h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row container-fluid pt-3 pb-4" id="about-us">
+        <div class="container my-5">
+          <h1 class="text-center mb-4">Resume</h1>
+          <div class="ratio ratio-16x9" style="height: 800px;">
+            <embed src="KevinLuoResume_S.pdf" type="application/pdf" width="100%" height="100%" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <hr class="w-200 mx-auto my-5" style="opacity: 0.25; border-top: 2px solid currentColor;">
+      </div>
+
+      <div class="row container-fluid" id="projects"> <div class="container mt-2">
+          <h1 class="text-center">Projects</h1>
+        </div>
+      </div>
+
+      <div class="row" id="about-us">
+        <div class="col-sm col-8">
+          <img class="rounded-3" src="images/systolicarray.png" width="100%" style="max-width: 500px">
+        </div>
+        <div class="col-sm-7 px-5">
+          <h2 class="display-6 fw-bold">
+              Systolic Array Accelerator (Ongoing)
+          </h2>
+            4x4 Systolic Array in Verilog for 16-bit fixed-point Matrix-Matrix Multiplication (MMM).
+            Hardware architecture with four independent memory blocks for dual-input data, instructions, and result storage.
+            Instruction-based execution of 4x4*4x4, 8x4*4x8, and 16x4*4x16 matrix operations via a central FSM controller.
+            Full systolic propagation of both input and output data without large multiplexers for processing element selection.
+            Self-contained design with zero external data transfers during runtime.
+            System-level Verilog testbench for automated memory initialization, pulse-driven execution control, and file-based result comparison.
+            Python/MATLAB test-vector generation with fixed-point representation.
+            Power, Performance, and Area (PPA) evaluation.
+          <div class="d-flex justify-content-center mt-4">
+            <a href="YOUR_GITHUB_LINK_HERE" class="linkedin-link-card shadow-sm">
+              <div class="linkedin-icon-wrapper">
+                <i class="fab fa-github fs-3 text-dark"></i>
+              </div>
+              <div class="flex-grow-1 text-start">
+                <h6 class="mb-0 fw-bold text-dark" style="font-size: 0.95rem;">Systolic Array Source</h6>
+                <small class="text-muted" style="font-size: 0.8rem;">github.com</small>
+              </div>
+              <i class="fas fa-external-link-alt text-muted ms-2" style="font-size: 0.85rem;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row container-fluid pt-5" id="about-us">
+          <div class="col-sm-7 px-5">
+            <h2 class="display-6 fw-bold">
+              4R/2W Register File UVM Verification
+            </h2>
+            <p>
+              SystemVerilog UVM testbench for 6-port (4R/2W) RISC-V register file design verification on a superscalar RISC-V processor approaching tapeout.
+              Constrained-random stimulus and SystemVerilog Assertions (SVA) for verification of basic read/write, write-enable, and synchronous active-low reset functionality.
+              Comprehensive test cases for WAW (Write-After-Write) hazards with Port 0 priority and RAW (Read-After-Write) scenarios during simultaneous access.
+              100% functional coverage achievement via Cadence Xcelium and IMC in accordance with rigorous test plans and architectural specifications.
+            </p>
+            <div class="d-flex justify-content-center mt-4">
+              <a href="https://github.com/KevinLuo423/SiliconJackets-UVM-Testbenches" class="linkedin-link-card shadow-sm">
+                <div class="linkedin-icon-wrapper">
+                  <i class="fab fa-github fs-3 text-dark"></i>
+                </div>
+                <div class="flex-grow-1 text-start">
+                  <h6 class="mb-0 fw-bold text-dark" style="font-size: 0.95rem;">UVM Testbench Code</h6>
+                  <small class="text-muted" style="font-size: 0.8rem;">github.com</small>
+                </div>
+                <i class="fas fa-external-link-alt text-muted ms-2" style="font-size: 0.85rem;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm">
+            <img class="rounded-3" src="images/register_file_tb.png" width="100%" style="max-width:500px">
+          </div>
+      </div>
+
+      <!-- <div class="row container-fluid pt-5" id="about-us">
+        <div class="col-sm">
+          <img class="rounded-3" src="images/risingallstar.jpg" width="100%" style="max-width:400px">
+        </div>
+        <div class="col-sm-7 px-5">
+          <h2 class="display-6 fw-bold">
+            Rising-All Star Award
+          </h2>
+          <p>
+            The Rising-All Star Award “celebrates the team that has persisted through challenges, despite the difficulties
+             of being young. This could be the result of being a new team, or a team with recent turnover in membership.”
+              Our team was awarded the Rising-All Star Award at the Arizona East Regional in March of 2025.
+          </p> 
+        </div>
+    </div>
+
+    <div class="row container-fluid pt-5" id="about-us">
+      <div class="col-sm-6 px-4">
+        <h2 class="display-6 fw-bold">
+          Regional Champions
+        </h2>
+        <p>
+          IgKnighted came out as regional champions at the Arizona East Regional in March of 2025, teaming with 
+           9432 8-Bit and 4415 Epic Robotz on the second alliance.
+        </p> 
+      </div>
+      <div class="col-sm">
+        <img class="rounded-3" src="images/regionalwinners.jpg" width="120%" style="max-width:500px">
+      </div> -->
+  </div>
+
+<!-- 
+      <div class="row container-fluid pt-5" id="about-us">
+        <div class="col-sm">
+          <img class="rounded-3" src="images/sustainabilityaward.jpg" width="100%" style="max-width:400px">
+        </div>
+        <div class="col-sm-7 px-5">
+          <h2 class="display-6 fw-bold">
+            Team Sustainability Award
+          </h2>
+          <p>
+            The Team Sustainability Award “celebrates and recognizes a team which has developed sustainable 
+            practices to have a positive environmental impact and achieve long-term continuity.” Our team was 
+            awarded the Team Sustainability Award at the Arizona Valley Regional in March of 2024.
+          </p> 
+        </div>
+    </div> -->
+
+      <div class="container-fluid text-center">
+        <footer class="row justify-content-center py-4" id="footer">
+
+          <div class="col-sm-1"></div>
+
+          <div class="col-3 col-lg-2">
+            <a href="mailto:kevinluo423@gmail.com" aria-label="Gmail">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 48 48">
+                <path fill="#4caf50" d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z"></path><path fill="#1e88e5" d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z"></path><polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17"></polygon><path fill="#c62828" d="M3,12.298V16.2l10,7.5V11.2L9.876,8.859C9.132,8.301,8.228,8,7.298,8h0C4.924,8,3,9.924,3,12.298z"></path><path fill="#fbc02d" d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"></path>
+              </svg>
+            </a>
+          </div>
+
+          <div class="col-1"></div>
+
+          <!-- <div class="col-3 col-lg-2">
+            <img class="img-responsive" src="images/9704Footer.png" width="100%" style="max-width:250px">
+          </div> -->
+
+          <div class="col-3 col-lg-2 d-flex justify-content-center align-items-center column-gap-5">
+
+            
+            <a href="https://github.com/KevinLuo423" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" fill="#ffffff" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+              </svg>
+            </a>
+            
+          </div>
+          
+          <div class="col-1"></div>
+          
+          <div class="col-2 text-nowrap text-right">
+            <a href="https://www.linkedin.com/in/kevin-luo7" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 16 16">
+                    <path fill="#ffffff" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854z"/>
+                    <path fill="#0077b5" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+            </a>
+          </div>
+
+          <div class="col-sm-1"></div>
+
+        </footer>
+      </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
