@@ -150,7 +150,7 @@ html,body
     padding-right: 10%; */
     /* min-height: 135px; */
     z-index: 51;
-    background-color: #7a22f2;
+    background-color: #0a66c2;
     color: white;
 }
 
@@ -218,13 +218,13 @@ html,body
     margin: 20px 0px 20px 0px;
     width: 275px;    
     color: white;
-    background-color: #a440f6;
+    background-color: #0a66c2;
 }
 
 .btn:hover {
     font: verdana;
     color: white;
-    background-color: #7a22f2;
+    background-color: #005a9e;
 }
 
 #footer {
