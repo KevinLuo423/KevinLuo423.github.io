@@ -131,19 +131,23 @@
       <div class="row" id="about-us">
         <div class="col-sm col-8">
           <img class="rounded-3" src="images/systolicarray.png" width="100%" style="max-width: 500px">
+          <img class="rounded-3" src="images/systarray2.png" width="100%" style="max-width: 500px">
         </div>
         <div class="col-sm-7 px-5">
           <h2 class="display-6 fw-bold">
               Systolic Array Accelerator (Ongoing)
           </h2>
+            Starting Idea
+            <br>
+
             4x4 Systolic Array in Verilog for 16-bit fixed-point Matrix-Matrix Multiplication (MMM).
             Hardware architecture with four independent memory blocks for dual-input data, instructions, and result storage.
             Instruction-based execution of 4x4*4x4, 8x4*4x8, and 16x4*4x16 matrix operations via a central FSM controller.
-            Full systolic propagation of both input and output data without large multiplexers for processing element selection.
-            Self-contained design with zero external data transfers during runtime.
-            System-level Verilog testbench for automated memory initialization, pulse-driven execution control, and file-based result comparison.
-            Python/MATLAB test-vector generation with fixed-point representation.
-            Power, Performance, and Area (PPA) evaluation.
+            <br>
+            <br>
+            Process
+            <br>
+            I started at the lowest level by designing the Processing Element (PE), which I then tiled into a 4x4 Systolic Array grid to enable parallel multiplication. Next, I built the Controller and its finite state machine to manage the "pulse" of the system, handling instruction decoding and the precise timing of data flow. Finally, I integrated everything into the Top Module, connecting dual-port RAM blocks to create a fully autonomous, memory-interfaced hardware accelerator.
           <div class="d-flex justify-content-center mt-4">
             <a href="https://github.com/KevinLuo423/SystolicArrayProject/tree/main/src" class="linkedin-link-card shadow-sm">
               <div class="linkedin-icon-wrapper">
